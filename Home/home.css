@@ -1,0 +1,20 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.fb-logo {
+    color: #1877f2;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.sidebar {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
