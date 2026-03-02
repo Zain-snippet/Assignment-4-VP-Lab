@@ -1,5 +1,6 @@
 body {
     background-color: #f0f2f5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .fb-logo {
@@ -8,13 +9,68 @@ body {
     font-size: 28px;
 }
 
+.navbar {
+    border-bottom: 1px solid #e4e6eb;
+}
+
+.nav-item-link {
+    color: #65676b;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nav-item-link:hover,
+.nav-item-link.active {
+    color: #1877f2;
+    background-color: #e7f3ff;
+}
+
 .sidebar {
     background-color: white;
     padding: 15px;
     border-radius: 8px;
+    border: 1px solid #e4e6eb;
 }
 
 .card {
     border: none;
     border-radius: 10px;
+    border: 1px solid #e4e6eb;
+}
+
+.create-post-card input {
+    border-radius: 20px;
+    background-color: #f0f2f5;
+    border: 1px solid #d9dde3;
+}
+
+.create-post-card input:focus {
+    box-shadow: none;
+    border-color: #1877f2;
+    background-color: #fff;
+}
+
+.post-image-link {
+    display: block;
+}
+
+.post-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border: 1px solid #e4e6eb;
+}
+
+.action-btn {
+    width: 32%;
+    font-weight: 600;
+    color: #65676b;
+    border-radius: 8px;
+}
+
+.action-btn:hover {
+    background-color: #e7f3ff;
+    color: #1877f2;
 }
